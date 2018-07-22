@@ -1,0 +1,11 @@
+/* 公共样式 */
+html{
+    background-color: #ff50ac;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+

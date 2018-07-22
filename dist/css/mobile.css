@@ -1,0 +1,142 @@
+/* 移动版样式 */
+
+.mobile {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  opacity: 0.7;
+  margin-top: 1.28rem;
+}
+
+/* 媒体查询断点，mobile规则 */
+
+@media (max-width:768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
+.mobile-topbar {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 1.6rem;
+  background: #fff;
+  padding: 0.213333rem 0.32rem;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 0 rgba(226, 226, 226, 0.50);
+}
+
+.mobile-topbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-topbar img {
+  width: 1.12rem;
+  height: 1.12rem;
+  margin-right: 0.266667rem;
+}
+
+.mobile-topbar .left .slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile-topbar .left .slogan p:first-child {
+  color: #FB4282;
+  font-size: 0.373333rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+.mobile-topbar .left .mobile-slogan p:last-child {
+  color: #CACACA;
+  font-size: 0.213333rem;
+}
+
+.mobile-download-btn {
+  background-image: linear-gradient(45deg,#FF2E9C 0%,#FF2B51 100%);
+  box-shadow: 0 0.066667rem 0.186667rem 0 rgba(255, 67, 132, 0.36);
+  border-radius: 2.383733rem;
+  color: #fff;
+  font-size: 0.373333rem;
+  width: 2.666667rem;
+  height: 0.933333rem;
+  line-height: 0.933333rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.mobile-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.2rem;
+  margin-bottom: 1.066667rem;
+}
+
+.mobile-logo .left {
+  margin-right: 0.266667rem;
+}
+
+.mobile-logo .left img {
+  width: 2.133333rem;
+  height: 2.133333rem;
+}
+
+.mobile-logo .right p:last-child {
+  color: #CACACA;
+  font-size: 0.213333rem;
+  opacity: 0.7;
+}
+
+.mobile-logo .right img {
+  width: 2.666667rem;
+  height: 1.066667rem;
+}
+
+.mobile-slogan {
+  font-weight: 800;
+  text-align: center;
+}
+
+.mobile-slogan .slogan-1 {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-bottom: 0.32rem;
+}
+
+.mobile-slogan .slogan1 p:first-child {
+  margin-bottom: 0.133333rem;
+}
+
+.mobile-slogan .slogan-2 {
+  font-size: 0.373333rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.mobile-download {
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0.066667rem 0.266667rem 0 rgba(0, 0, 0, 0.20);
+  width: 8.666667rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #FB4282;
+  margin: 0 auto;
+  margin-top: 1.173333rem;
+  font-size: 0.56rem;
+  font-weight: 800;
+}
